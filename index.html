@@ -2,8 +2,33 @@
 <html>
 <head>
 	<title>Anoop is Out of Office</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body, html{
+			text-align: center;
+			padding: 0px;
+			margin: 0px;
+			background: #222;
+		}
+		.content{
+			display: block;
+			margin: 50px auto;
+			width: 400px;
+			border-radius: 8px;
+		}
+		@media(max-width: 800px){
+			html, body{
+				background: #fff;
+			}
+			.content{
+				width: 100%;
+				border-radius: 0;
+				margin: 0;
+			}
+		}
+	</style>
 </head>
 <body>
-
+	<img class="content" src="content.png">
 </body>
 </html>
